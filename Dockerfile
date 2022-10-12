@@ -4,7 +4,7 @@ EXPOSE 8000
 
 RUN apk add --no-cache gcc python3-dev musl-dev
 
-RUN sudo apt-get install -y libmysqlclient-dev
+RUN apt-get install -y libmysqlclient-dev
 
 ADD . /django_ec2
 
